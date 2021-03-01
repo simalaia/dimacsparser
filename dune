@@ -1,0 +1,3 @@
+(executable
+ (name parse)
+ (libraries base core stdio))

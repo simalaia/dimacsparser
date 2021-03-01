@@ -1,0 +1,6 @@
+#! /usr/bin/env -S es-shell
+vis parse.ml
+dune build parse.exe &&
+echo &&
+time ./_build/default/parse.exe > results;
+echo
